@@ -31,7 +31,7 @@ main() {
 
 	S='x' N='' i='     '
 
-	case ${1:-classic} in
+	case ${1:-fusion} in
 	classic)
 		h='+------------+---------+--------+-----------+'
 		p='|'
