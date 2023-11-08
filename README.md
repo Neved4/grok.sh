@@ -1,31 +1,37 @@
 ![Shell Script](https://img.shields.io/badge/Shell_Script-9DDE66?logo=gnubash&logoColor=000&style=for-the-badge)
-[![POSIX.1%2D2017](https://img.shields.io/badge/POSIX.1&#8209;2017-6A737D?labelColor=6A737D&style=for-the-badge)](https://www.google.com)
+[![POSIX.1%2D2017](https://img.shields.io/badge/POSIX.1&#8209;2017-6A737D?labelColor=6A737D&style=for-the-badge)][POSIX.1-2017]
 
 # `grok.sh` - *The infamously hard to grok table!*
 
 ##### Original by [Mike Clark].
 
-> _Now in **only ~~`957`~~ [`645 bytes`]**! The classic reborn! AT&T UNIX System V-friendly!_
+> _Now in **only ~~`957`~~ [`645 bytes`]**! The classic reborn! AT&T UNIX
+> System V-friendly!_
 
-Evaluates the _Parameter Substitution_ table in: [POSIX.1-2017: Parameter Expansion]:
+Evaluates the _Parameter Substitution_ table in [POSIX.1-2017: Parameter
+Expansion]:
 
-```console
-$ grok.sh
--------------------------------------------
- expression   foo='V'   foo=''   unset foo
--------------------------------------------
- ${foo:-x}    V         x        x
- ${foo-x}     V                  x
- ${foo:=x}    V         x        x
- ${foo=x}     V         x        x
- ${foo:?x}    V         <err>    <err>
- ${foo?x}     V         x        <err>
- ${foo:+x}    x         x        x
- ${foo+x}     x         x        x
--------------------------------------------
+![](graphics/grok.png)
+
+###### Generated using [`agg`], [`asciinema`], [`Menlo`] typeface and `Github Dark` theme.
+
+## Getting Started
+
+### Prerequisites
+
+- A [POSIX.1-2017] compliant shell, or any of the ones listed in [Supported
+  shells](#supported-shells).
+
+### Installation
+
+Paste in a macOS Terminal or Linux shell prompt:
+```sh
+/bin/sh -c "$(curl -fsSL https://github.com/Neved4/colort.sh/tree/master/install.sh"
 ```
 
-###### Generated using [`agg`], colors by [`kanagawa.nvim`].
+### Usage
+
+```grok.sh [classic | modern | fusion]```
 
 ### Supported shells
 
@@ -49,17 +55,31 @@ $ grok.sh
 |    [`ysh`] | `0.18.0`      | No        |
 |  [`xonsh`] | `0.14.1`      | No        |
 
+## Standards
+
+This script conforms to [ISO 9945:2009][POSIX.1-2017], also known as
+[POSIX.1-2017].[^3]
+
 ## License
 
-`grok.sh` is licensed under the terms of the MIT License.
+`grok.sh` is licensed under the terms of the [MIT License].
 
 See the [LICENSE](LICENSE) file for details.
 
+[^3]: _IEEE Std 1003.1-2017: Standard for Information Technology — Portable
+    Operating System Interface (POSIX®)_, ISO/IEC/IEEE 9945:2009/COR
+    2:2017. URL: https://pubs.opengroup.org/onlinepubs/9699919799/
+
 [`645 bytes`]: ./src/classic.sh
 [`agg`]: https://github.com/asciinema/agg
+[`asciinema`]: https://github.com/asciinema/asciinema
+[`Menlo`]: https://en.wikipedia.org/wiki/Menlo_(typeface)
+[`Github Dark`]: link
 [`kanagawa.nvim`]: https://github.com/rebelot/kanagawa.nvim
 [Mike Clark]: https://stackoverflow.com/a/67261832
+[MIT License]: https://opensource.org/license/mit/
 [POSIX.1-2017: Parameter Expansion]: https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_02
+[POSIX.1-2017]: https://pubs.opengroup.org/onlinepubs/9699919799/
 
 [`bash`]: https://git.savannah.gnu.org/cgit/bash.git/
 [`dash`]: https://git.kernel.org/pub/scm/utils/dash/dash.git
