@@ -33,7 +33,9 @@ Paste in a macOS Terminal or Linux shell prompt:
 
 ```grok.sh [classic | modern | fusion]```
 
-### Supported shells
+### Portability
+
+#### Supported shells
 
 |      Shell | Version       | Supported |
 | ---------: | :------------ | :-------- |
@@ -58,7 +60,7 @@ Paste in a macOS Terminal or Linux shell prompt:
 ## Standards
 
 This script conforms to [ISO 9945:2009][POSIX.1-2017], also known as
-[POSIX.1-2017].[^3]
+[POSIX.1-2017].[^1]
 
 ## License
 
@@ -66,9 +68,9 @@ This script conforms to [ISO 9945:2009][POSIX.1-2017], also known as
 
 See the [LICENSE](LICENSE) file for details.
 
-[^3]: _IEEE Std 1003.1-2017: Standard for Information Technology — Portable
-    Operating System Interface (POSIX®)_, ISO/IEC/IEEE 9945:2009/COR
-    2:2017. URL: https://pubs.opengroup.org/onlinepubs/9699919799/
+[^1]: _IEEE Std 1003.1-2017: Standard for Information Technology — Portable
+      Operating System Interface (POSIX®)_, ISO/IEC/IEEE 9945:2009/COR
+      2:2017. URL: https://pubs.opengroup.org/onlinepubs/9699919799/
 
 [`645 bytes`]: ./src/classic.sh
 [`agg`]: https://github.com/asciinema/agg
