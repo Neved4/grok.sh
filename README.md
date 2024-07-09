@@ -1,7 +1,7 @@
-![Shell Script](https://img.shields.io/badge/Shell_Script-9DDE66?logo=gnubash&logoColor=000&style=for-the-badge)
-[![POSIX.1%2D2017](https://img.shields.io/badge/POSIX.1&#8209;2017-6A737D?labelColor=6A737D&style=for-the-badge)][POSIX.1-2017]
+![Shell Script](https://img.shields.io/badge/Shell_Script-9DDE66?logo=gnubash&logoColor=000&style=flat)
+![POSIX.1%2D2017](https://img.shields.io/badge/POSIX.1&#8209;2017-00629B?logo=ieee&logoColor=fff&style=flat)
 
-# `grok.sh` - *The infamously hard to grok table!*
+## `grok.sh` - *The infamously hard to grok table!*
 
 ##### Original by [Mike Clark].
 
@@ -13,7 +13,7 @@ Expansion]:
 
 ![](graphics/grok.png)
 
-###### Generated using [`agg`], [`asciinema`], [`Menlo`] typeface and `Github Dark` theme.
+###### Generated using [`agg`], [`asciinema`], [`Menlo`] font, `Github Dark` theme.
 
 ## Getting Started
 
@@ -78,10 +78,6 @@ See the [LICENSE](LICENSE) file for details.
 [`Menlo`]: https://en.wikipedia.org/wiki/Menlo_(typeface)
 [`Github Dark`]: link
 [`kanagawa.nvim`]: https://github.com/rebelot/kanagawa.nvim
-[Mike Clark]: https://stackoverflow.com/a/67261832
-[MIT License]: https://opensource.org/license/mit/
-[POSIX.1-2017: Parameter Expansion]: https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_02
-[POSIX.1-2017]: https://pubs.opengroup.org/onlinepubs/9699919799/
 
 [`bash`]: https://git.savannah.gnu.org/cgit/bash.git/
 [`dash`]: https://git.kernel.org/pub/scm/utils/dash/dash.git
@@ -100,3 +96,8 @@ See the [LICENSE](LICENSE) file for details.
 [`tcsh`]: https://github.com/freebsd/freebsd-src/tree/main/bin/csh
 [`ysh`]: https://www.oilshell.org/cross-ref.html?tag=YSH#YSH
 [`xonsh`]: https://xon.sh/
+
+[Mike Clark]: https://stackoverflow.com/a/67261832
+[MIT License]: https://opensource.org/license/mit/
+[POSIX.1-2017: Parameter Expansion]: https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_02
+[POSIX.1-2017]: https://pubs.opengroup.org/onlinepubs/9699919799/
